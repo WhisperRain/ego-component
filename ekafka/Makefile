@@ -1,3 +1,0 @@
-test-e2e:
-	@TEST_CONFIG=$(shell pwd)/test/e2e/config/e2e.toml go test -v ./test/e2e/...
-.PHONY: test-e2e
